@@ -107,3 +107,9 @@ div.button1 {
   margin: 0 auto;
 }
 
+.navbar{
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  }
