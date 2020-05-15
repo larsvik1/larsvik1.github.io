@@ -138,3 +138,9 @@ div.button1 {
   left: 0;
   right: 0;
   }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
