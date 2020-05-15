@@ -21,8 +21,13 @@ h1 {
     margin-bottom: 25px;
   }
   
+<<<<<<< HEAD
 .container-img {
     text-align: center;
+=======
+.container {
+    /*text-align: center;*/
+>>>>>>> cb41a090f5047472561ca58ed11aabe7634d1816
     padding: 10px 20px;
   }
 
@@ -145,3 +150,9 @@ div.button1 {
   left: 0;
   right: 0;
   }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
