@@ -23,6 +23,7 @@
                         <!-- This table was edited and implemented by all of us.
                         This table gives the reader information on who we are (Name age grade)-->
                         <h1>About Us</h1>
+                        <!--INSTR: I'm not sure what's going on, but this table doesn't resize when the width of the browser window changes. I mean, it's sort of fine, but if you make it super narrow, it might be a problem. You've got this section in a flexbox container within a grid column that's set to the full 12 columns wide. What if you created two grid columns and put this stuff in there instead of the flexboxes?-->
                         <table>
                                <tr>
                                   <th> First </th>
@@ -116,6 +117,7 @@
                           which I seem to prefer more than others. All have been provided by the guide mentioned above.
                           </span>
                           <!--INSTR: It doesn't matter so much now since right now classes and ids are basically serving the same function, but generally you want to restrict the use of ids for single elements. Each id should be used only once. This will become important as we get into coding and behavioral effects since javascript refers to elements by their ids. In other words, you should change roundImg2 to be a class instead of id.-->
+                          <!--INSTR: I sort of expected you to change this after I left the above comment! You should fix all these ids to classes...-->
                         <ol class="olFormat">
                           <li><img id = "roundImg2" src="images/Annie.jpg" alt= "Mech Infiltraitors jpg" width="75" style="margin:5px 0px;vertical-align:middle">
                             <!--INSTR: Generally, best practice to use all lowercase for tags so Strong should be strong.-->
