@@ -64,5 +64,6 @@ button:hover {
 
 .center {
     padding: 70px 0;
-    text-align: center;
-  }
+    align-content: center;
+}
+
