@@ -63,7 +63,9 @@ button:hover {
 }
 
 .center {
-    padding: 70px 0;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
