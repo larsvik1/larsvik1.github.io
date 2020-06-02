@@ -19,29 +19,23 @@
             <a class="cta" href="https://www.twitch.tv/urboitricky"><button>Twitch</button></a>
         </header>
 
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
+    <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
+    <div class="center" id="twitch-embed"></div>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+                var embed = new Twitch.Embed("twitch-embed", {
+                    width: 640,
+                    height: 480,
+                    channel: "urboitricky",
+                    layout: "video",
+                    autoplay: false,
+                    theme: "dark",
+                });
+            embed.addEventListener(Twitch.Embed.VIDEO_PLAY, () => {
+                var player = embed.getPlayer();
+                player.play();
+            });
+        </script>
 
-    <!-- Load the Twitch embed script -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!--Create a Twitch.Embed object that will render within the "twitch-embed" root element.-->
-    <script type="text/javascript">
-      var embed = new Twitch.Embed("twitch-embed", {
-        width: 640,
-        height: 480,
-        channel: "urboitricky",
-        layout: "video",
-        autoplay: false,
-        theme: "dark",
-        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-        parent: ["embed.example.com", "othersite.example.com"]
-      });
-
-      embed.addEventListener(Twitch.Embed.VIDEO_PLAY, () => {
-        var player = embed.getPlayer();
-        player.play();
-      });
-    </script>
     </body>
 </html>

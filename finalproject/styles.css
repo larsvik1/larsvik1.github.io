@@ -61,3 +61,10 @@ button {
 button:hover {
     background-color: rgba(145, 71, 254,0.8);
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 50px;
+  }
