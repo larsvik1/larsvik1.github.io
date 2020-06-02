@@ -27,6 +27,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    background-color: #1f1f1f;
 }
 
 .nav_links {
@@ -43,12 +44,12 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9
+    color: #9147fe
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(145, 71, 254,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -56,5 +57,5 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(145, 71, 254,0.8);
 }
