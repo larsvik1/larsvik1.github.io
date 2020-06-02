@@ -63,8 +63,6 @@ button:hover {
 }
 
 .center {
-    display: block;
-	width: auto;
-	margin: 0 auto; 
+    text-align: center;
 }
 
