@@ -32,11 +32,13 @@ header {
 
 .nav_links {
     list-style: none;
+    background-color: #1f1f1f;
 }
 
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+    background-color: #1f1f1f;
 }
 
 .nav_links li a {
