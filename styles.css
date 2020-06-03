@@ -64,6 +64,6 @@ button:hover {
 
 #parent {
     display: flex;
-    text-align: center;
+    justify-content: center;
     padding: 70px;
 }
