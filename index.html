@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Navbar</title>
+        <title>urboitricky.com</title>
         <link rel="shortcut icon" type="image/png" href="images/urboitrickyicon.png">
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -19,23 +19,32 @@
             </nav>
             <a class="cta" href="https://www.twitch.tv/urboitricky"><button>Twitch</button></a>
         </header>
-        <!-- hi -->
-    <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
-    <div class="center" id="twitch-embed"></div>
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-            <script type="text/javascript">
-                var embed = new Twitch.Embed("twitch-embed", {
-                    width: 768,
-                    height: 432,
-                    channel: "urboitricky",
-                    layout: "video",
-                    autoplay: false,
-                    theme: "dark",
+
+        <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
+        <div class="center" id="twitch-embed"></div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                <script type="text/javascript">
+                    var embed = new Twitch.Embed("twitch-embed", {
+                        width: 768,
+                        height: 432,
+                        channel: "urboitricky",
+                        layout: "video",
+                        autoplay: false,
+                        theme: "dark",
+                    });
+                embed.addEventListener(Twitch.Embed.VIDEO_PLAY, () => {
+                    var player = embed.getPlayer();
+                    player.play();
                 });
-            embed.addEventListener(Twitch.Embed.VIDEO_PLAY, () => {
-                var player = embed.getPlayer();
-                player.play();
-            });
-        </script>
+            </script>
+        <!-- Twitch embeded chat provided by https://dev.twitch.tv/docs/embed/chat-->
+        <iframe frameborder="0"
+            scrolling="yes",
+            id="urboitricky",
+            src="https://dashboard.twitch.tv/popout/u/urboitricky/stream-manager/chat",
+            height="432"
+            width="200">
+        </iframe>
+
     </body>
 </html>
