@@ -65,15 +65,8 @@ button:hover {
 #parent {
     display: flex;
     justify-content: center;
-    padding: 70px;
-}
-
-figure {
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 50px;
-    
-    z-index: -1;
-    margin:auto;
-    justify-content: center;
 }
+
+
