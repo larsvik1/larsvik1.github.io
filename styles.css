@@ -62,15 +62,7 @@ button:hover {
     background-color: rgba(145, 71, 254,0.8);
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 25px;
-    max-width: 60%;
-    margin:auto;
-}
+
 
 .container {
     display: flex;
