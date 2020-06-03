@@ -20,9 +20,10 @@
             <a class="cta" href="https://www.twitch.tv/urboitricky"><button>Twitch</button></a>
         </header>
 
-        <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
-        <div class="container">
-            <div id="twitch-embed", class="item-wide"></div>
+        <!--flexbox w/ chat and videoplayer-->
+        <div class="container" style="margin-top:70px">
+            <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
+            <div id="twitch-embed", style="flex-grow: 8"></div>
                 <script src="https://embed.twitch.tv/embed/v1.js"></script>
                     <script type="text/javascript">
                         var embed = new Twitch.Embed("twitch-embed", {
@@ -40,7 +41,7 @@
                 </script>
 
             <!-- Twitch embeded chat provided by https://dev.twitch.tv/docs/embed/chat-->
-            <div class="item-narrow">
+            <div style="flex-grow: 1">
                 <iframe frameborder="0"
                     scrolling="yes",
                     id="urboitricky",
@@ -49,8 +50,12 @@
                     width="100%">
                 </iframe>
             </div>
-            <div class="break"></div>
-            <div class="item-wide"></div>
+        </div>
+
+        <div class="container" style="margin-top:70px">
+            <h1>
+                hi
+            </h1>
         </div>
     </body>
 </html>
