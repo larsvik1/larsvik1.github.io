@@ -21,8 +21,8 @@
         </header>
 
         <!-- Twitch embeded video player provided by https://dev.twitch.tv/docs/embed/everything-->
-        <div class="container" style="margin-top:70px">
-            <div id="twitch-embed", style="flex-grow: 8"></div>
+        <div class="container">
+            <div id="twitch-embed", class="item-wide"></div>
                 <script src="https://embed.twitch.tv/embed/v1.js"></script>
                     <script type="text/javascript">
                         var embed = new Twitch.Embed("twitch-embed", {
@@ -40,7 +40,7 @@
                 </script>
 
             <!-- Twitch embeded chat provided by https://dev.twitch.tv/docs/embed/chat-->
-            <div style="flex-grow: 1 1">
+            <div class="item-narrow">
                 <iframe frameborder="0"
                     scrolling="yes",
                     id="urboitricky",
@@ -49,6 +49,8 @@
                     width="100%">
                 </iframe>
             </div>
+            <div class="break"></div>
+            <div class="item-wide"></div>
         </div>
     </body>
 </html>
