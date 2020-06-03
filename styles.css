@@ -62,15 +62,8 @@ button:hover {
     background-color: rgba(145, 71, 254,0.8);
 }
 
-.center {
+#parent {
+    display: flex;
     text-align: center;
     padding: 70px;
-}
-
-#parent {
-    display: flex;
-}
-
-#parent {
-    display: flex;
 }
