@@ -11,7 +11,7 @@ body {
     background-color: #24252A;
 }
 
-li, a, button {
+li, .hyperlink, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -28,7 +28,7 @@ header {
     background: #1f1f1f;
 }
 
-.logo {
+.logo, .logolink{
     cursor: pointer;
     margin-right: auto;
     background-color: #1f1f1f;
@@ -45,11 +45,11 @@ header {
     background-color: #1f1f1f;
 }
 
-.nav_links li a {
+.nav_links li .hyperlink {
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links li .hyperlink:hover {
     color: #9147fe
 }
 
@@ -65,7 +65,6 @@ button {
 button:hover {
     background-color: rgba(145, 71, 254,0.8);
 }
-
 
 .container {
     display: flex;
