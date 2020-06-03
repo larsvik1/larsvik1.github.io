@@ -20,8 +20,13 @@ li, a, button {
     text-decoration: none;
 }
 
-.hyperlink {
-    href="index.html"
+a#logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    background-color: #1f1f1f;
+    text-decoration: none;
 }
 
 header {
