@@ -4,6 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-image: url(/larsvik1.github.io/images/background.png);
     background-color: #24252A;
 }
 
@@ -63,7 +67,6 @@ button:hover {
 }
 
 
-
 .container {
     display: flex;
     flex-direction: row;
@@ -74,4 +77,16 @@ button:hover {
     max-width: 60%;
     margin:auto;
     height: 500px;
+}
+
+.outsidecontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    max-width: 60%;
+    margin:auto;
+    height:auto;
 }
