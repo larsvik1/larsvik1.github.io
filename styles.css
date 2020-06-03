@@ -20,6 +20,10 @@ li, a, button {
     text-decoration: none;
 }
 
+.hyperlink {
+    href="index.html"
+}
+
 header {
     display: flex;
     justify-content: flex-end;
