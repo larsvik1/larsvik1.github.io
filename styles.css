@@ -20,15 +20,6 @@ li, a, button {
     text-decoration: none;
 }
 
-a#logo {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    background-color: #1f1f1f;
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: flex-end;
@@ -39,7 +30,7 @@ header {
 
 .logo {
     cursor: pointer;
-    margin-left: auto;
+    margin-right: auto;
     background-color: #1f1f1f;
 }
 
@@ -50,7 +41,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding-right:20px;
     background-color: #1f1f1f;
 }
 
