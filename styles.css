@@ -7,9 +7,16 @@
 }
 
 body {
-    background-image: url(/larsvik1.github.io/images/background.png);
     background-color: #24252A;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 
 li, .hyperlink, button {
     font-family: "Montserrat", sans-serif;
