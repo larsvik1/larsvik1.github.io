@@ -162,15 +162,14 @@ button:hover {
 }
 
 .social_button_item {
-    flex-basis: 200px;
-    display: flex;
-    margin: 10px;
-    padding: 25px;
+
+    margin: 30px;
+    padding: 15px;
     background-color: rgba(145, 71, 254,1);
     border-radius: 100px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    justify-content: center;
+
 }
 
 .social_button_styling:hover {
