@@ -142,5 +142,6 @@ button:hover {
 
 .blogimg {
     width: 100%;
-    padding: 20px;
+    height: 200px;
+    object-fit: cover;
 }
