@@ -161,7 +161,8 @@ button:hover {
     height:auto;
 }
 
-.social_button_styling {
+.social_button_item {
+    display: flex;
     margin: 10px;
     padding: 25px;
     background-color: rgba(145, 71, 254,1);
@@ -176,6 +177,6 @@ button:hover {
 }
 
 .social_media_image {
-    justify-content: center;
+    
 }
 
