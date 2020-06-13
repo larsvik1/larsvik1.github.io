@@ -97,6 +97,20 @@ button:hover {
     height:auto;
 }
 
+.textcontainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    max-width: 60%;
+    margin:auto;
+    margin-top:35px;
+    margin-bottom:35px;
+    height:auto;
+}
+
 .textheading {
     font-family: "Lato";
     font-weight: bold;
@@ -110,4 +124,24 @@ button:hover {
     color: #2a2e30;
     font-size: 20px;
     margin: 30px;
+}
+
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    max-width: 80%;
+    margin:auto;
+    margin-top:35px;
+    margin-bottom:35px;
+    height:auto;
+  }
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }
