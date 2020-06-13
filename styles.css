@@ -151,6 +151,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -162,11 +163,12 @@ button:hover {
 }
 
 .social_button_item {
+    align-items: center;
     display: flex;
     margin: 10px;
     padding: 25px;
     background-color: rgba(145, 71, 254,1);
-    border-radius: 50px;
+    border-radius: 100px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     justify-content: center;
