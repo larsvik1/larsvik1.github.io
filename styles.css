@@ -137,6 +137,8 @@ button:hover {
 
 .blogimg {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
     object-fit: cover;
 }
