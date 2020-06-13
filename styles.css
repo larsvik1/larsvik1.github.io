@@ -152,4 +152,5 @@ button:hover {
 
 .blogcaption {
     font-family: "Lato";
+    border-style: bottom;
 }
