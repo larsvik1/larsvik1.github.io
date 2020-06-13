@@ -153,4 +153,6 @@ button:hover {
 .blogcaption {
     font-family: "Lato";
     font-size: 16px;
+    border: 2px;
+    border-bottom:2px;
 }
