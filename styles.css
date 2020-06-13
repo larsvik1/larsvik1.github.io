@@ -173,7 +173,7 @@ button:hover {
     justify-content: center;
 }
 
-.social_button_styling:hover {
+.social_button_item:hover {
     background-color: rgba(145, 71, 254,0.8);
 }
 
