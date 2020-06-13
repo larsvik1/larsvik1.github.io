@@ -162,10 +162,11 @@ button:hover {
 }
 
 .social_button_styling {
+    width: auto;
     margin: 10px;
     padding: 25px;
     background-color: rgba(145, 71, 254,1);
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
