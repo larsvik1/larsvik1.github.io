@@ -151,7 +151,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     max-width: 60%;
@@ -166,12 +166,16 @@ button:hover {
     margin: 10px;
     padding: 25px;
     background-color: rgba(145, 71, 254,1);
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 .social_button_styling:hover {
     background-color: rgba(145, 71, 254,0.8);
+}
+
+.social_media_image {
+    justify-content: center;
 }
 
