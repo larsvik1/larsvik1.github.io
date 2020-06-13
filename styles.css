@@ -147,11 +147,6 @@ button:hover {
 }
 
 .blogtext {
+    padding-top:10px;
     font-family: "Lato";
-}
-
-.blogcaption {
-    font-family: "Lato";
-
-    border-bottom: 1px solid black;
 }
